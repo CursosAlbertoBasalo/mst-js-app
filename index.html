@@ -8,5 +8,9 @@
   <body>
     <h1>Minsait JS app</h1>
     <mst-location value="The Moon"></mst-location>
+    <script type="module">
+      import { slugify } from "./node_modules/@mst/domain/domain.js";
+      console.log(slugify("Hello, World! from Minsait JS app"));
+    </script>
   </body>
 </html>
